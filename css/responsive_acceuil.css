@@ -1,0 +1,291 @@
+
+nav .menu-hamburger{
+    /* width: 80px;
+    height: 70px; */
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: none;
+    font-size: 24px;
+    color: rgb(17, 114, 199);
+    margin-right: 20px;
+
+}
+.show{
+    margin-left: 0;
+
+}
+.club-autos{
+    display: none;
+    position: absolute;
+    
+
+}
+.club_autoMeilleur{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        font-size: 18px;
+        width: 100%;
+        height: 150px;
+        backdrop-filter: blur(50px);
+        justify-content: center; 
+        align-items: center;   
+        background-color: none; 
+       
+          
+
+    }
+    nav ul li {
+        margin: 10px 0px;
+        /* backdrop-filter: blur(50px); */
+    }
+    nav{
+        
+        margin-top: none;
+        height: 150px;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -200%;
+        /* background-color: rgb(240, 240, 235);   */
+        width: 100%; 
+        
+    }
+    nav a:hover{
+        padding: 20px;
+    }
+    nav .menu-hamburger{
+        display: block ;
+        margin-top: 0px;
+    }
+     nav.show{
+        margin-left: 0;
+    
+    }
+
+    .top li {
+        display: none;
+    }
+    .top img{
+        display:none;
+    }
+    .top  {
+        background-color: rgb(43, 40, 40);
+        height:300px;
+        padding-right: 90px;
+          
+    }
+    
+    .top h1{
+        display: none;
+    }
+    
+    
+    .top  ul h3{
+        font-size:17px;
+    }
+    .top .telephones{
+        display: block;
+        font-size:20px;
+        
+    }
+    .top .img-telephones{
+        display: block;
+        width: 60px;
+        height: 50px;
+        
+    }
+    .club_autoMeilleur{
+        
+        display: block;
+        font-size: 40px;
+        background-color: none;
+        margin-top: 0px;
+        margin-left: 30px;
+        position: absolute;
+        padding-top: 150px;
+        padding-left: 0px;
+      
+    }
+    .container {
+        display: none;
+    }
+    .container_1 {
+        flex-direction: column;
+        /* background-color: rgb(81, 165, 42); */
+        margin: 25px;
+        width: 370px;
+        margin-left: 10px;
+        
+    }
+    .container_1 img{
+        width: 370px;
+        height: 400px;
+        margin: 0;
+        
+        
+    }
+    .container_1 strong {
+        font-size: 25px;
+    }
+    .container_1 p {
+        font-size: 20px;
+        margin: 0;
+        
+        
+    }
+    .container_2 {
+        flex-direction: column;
+        /* background-color: brown; */
+        margin: 25px;
+        width: 370px;
+        margin-left: 10px;
+        
+    }
+    .container_2 h3{
+        font-size: 30px;  
+        margin-left: 0px;
+    }
+    .container_2 p {
+        font-size: 20px;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .container_2 ul {
+        
+        margin-left: 0px;
+        font-size: 20px;
+        
+    }
+    .container_2 img{
+        width: 330px;
+        height: 300px;
+        margin: 0;  
+    }
+    .container_3{
+        height: auto;
+        display: block;
+        padding: 0px;
+        padding-top: 10px;
+        
+    }
+    
+    .carre {
+        width: 350px;
+        height: 350px;
+        margin-top: 20px; 
+       
+    }
+    .container_3 p {
+        font-size: 20px;
+    
+    }
+    .container_4 h2{
+       font-size: 30px; 
+       
+    }
+    .ligne_1{
+        width: 330px;
+        height: 3px;
+        margin: 10px 10px 2px  25px  ;  
+      
+    }
+    .produit{
+        margin: 0;
+        /* background-color: aqua; */
+        height: 500px;
+    }
+    .car {
+        /* padding-left: 30px; */
+        width: 1950px;
+        padding-right: 10px;
+        /* background-color: #ee0d0d; */
+       margin: 0;
+    }
+    .container_4 {
+        width: 100%;
+        height: 620px;
+        
+    }
+    .car img {
+        width: 100%;
+        height: 350px;
+          
+    }
+    
+    .container_5 {
+       font-size: 25px;
+       height: 1700px;
+      
+        
+        
+    }
+    .top_1 {
+        display:block;
+        margin-left: 50px;
+        height: 700px;
+    }
+    .item {
+        /* position: relative; */
+        margin: 30px;
+        width: 300px; /* Largeur des éléments */
+    }
+    .container_5 button{
+        height: 70px;
+        width: 300px;
+       
+       
+        margin-top: 600px;
+    
+    }
+    .vente img {
+        max-width: 100%;
+        height: 400px;
+    }
+    .jaune {
+        margin: 60px;
+        top: 165px;
+        background-color: rgba(255, 166, 0, 0.788);
+        padding: 20px 30px;
+        width: 350px;
+        
+    
+       
+    }
+
+
+/* ******* footter ********* */
+    .container_footer{
+        display: block;
+        margin-left: -30px;
+       width: 800px;
+        font-size: 21.5px;
+        padding: 0;
+        
+        
+    }
+    .news ul li input{
+        width: 350px;
+        height: 30px;
+    }
+    .nono{
+         width: 320px; 
+        height: 1px;
+        margin: 10px 10px 2px 35px  ; 
+        
+       
+    }
+    .copyrigth{
+        font-size: 18px;
+    }
+}

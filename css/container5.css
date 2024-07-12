@@ -1,0 +1,48 @@
+.container_5 {
+    text-align: center;
+    height: 500px;
+    /* background-color: aqua; */
+    position: relative;
+}
+.top_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.item {
+    position: relative;
+    margin: 30px;
+    width: 200px; /* Largeur des éléments */
+}
+.item img {
+    position: absolute;
+    top: 38px;
+    left: -55px;
+    width: 47px; /* Ajuster la taille de l'image */
+    height: auto;
+}
+.content {
+    text-align: left; /* Aligner le texte à gauche */
+}
+h3 {
+    color: orange;
+    margin: 0 0 5px 0; /* Marge en bas pour séparer le titre du paragraphe */
+}
+.top_1 p {
+    margin: 0; /* Annuler toute marge par défaut pour le paragraphe */
+}
+.top_1 ul {
+    list-style: none;
+    padding: 0; /* Annuler les marges intérieures de la liste */
+}
+.top_1 li {
+    margin-bottom: 10px; /* Ajouter de l'espace entre chaque élément de liste */
+}
+.container_5 button{
+    height: 50px;
+    width: 200px;
+    background-color: rgba(34, 34, 221, 0.637);
+    border-radius: 5px;
+    margin-top: 50px;
+
+}

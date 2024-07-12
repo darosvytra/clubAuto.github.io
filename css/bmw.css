@@ -1,0 +1,77 @@
+.car_bmw{
+    color: gray;
+    margin-left:9% ;
+
+}
+.car_bmw ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;   
+}
+.car_bmw a{
+    padding-right: 6px;
+    text-decoration: none;
+    color:gray;
+}
+
+.bmw{ 
+    height: 2px;
+    width: 1200px;
+    background-color: gray;
+    display: block;
+}
+.content_3{
+    /* background-color: red; */
+    width: 960px;
+    height: auto;
+    margin-left: 9%;
+    margin-bottom: 70px;
+}
+.content_3 img{
+    width: 960px;
+    height: 600px;
+}
+.information{
+    width: 960px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    
+    
+}
+
+.information ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0; 
+    margin-left: 8px; 
+     
+}
+.information a {
+    
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(245, 245, 245);
+    
+}
+.information a:hover{
+    border-top: 8px solid orange;
+    background-color: rgb(241, 241, 241);
+    color:black;
+   
+    
+} 
+.style1{
+    border-left: 5px solid yellow;
+    padding-left: 26px;
+    font-style: italic;
+    color: gray;
+}
+.content_2 ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}

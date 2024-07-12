@@ -1,0 +1,144 @@
+nav {
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+    text-align: right; /* Aligne le contenu de la barre de navigation à droite */   
+    
+}
+
+nav a:hover{
+    background-color: #df8816;
+    /* border: 50px 80px solide; */
+}
+nav ul{
+    margin-right: 70px;
+}
+
+nav li {
+    display: inline;
+    
+    
+}
+nav a {
+    color: #131111;
+    text-decoration: none;
+    transition: color 0.4s;
+    
+}
+nav ul li a {
+    border: 0px solid  ;
+    padding: 26px ;
+    
+}
+.container {
+    position: relative;
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+
+/* Styles pour l'image le title  */
+.container img {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    height: 750px; 
+    position: relative; 
+    z-index: 1; 
+}
+
+
+
+/* Styles pour le titre */
+.container h1 {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0.979); 
+    color: #fff;
+    padding: 10px; 
+    margin: 0; 
+    z-index: 2; 
+    height: 60px;
+}
+span{
+    
+    color: rgb(230, 156, 19);
+} 
+   
+
+/* container 1 pour le client */
+.container_1 {
+    display: flex; 
+    align-items: center; 
+    
+}
+.container_1 img {
+    max-width: 550px; 
+    height: auto; 
+    margin-right: 30px; 
+    margin-left: 60px;
+    padding-top: 50px;
+}
+.container_1 p {
+    /* text-align: justify;  */
+    margin-right: 20%;
+    margin-bottom: 110px;
+    color: gray;
+}
+.container_1 h3{
+    margin: 0;
+    font-size: 30px; 
+    color: #333; 
+}
+
+
+   /* container 2 pour l'entretient */
+.container_2 {
+    display: flex; 
+    align-items: center; 
+         
+}
+.container_2 img {
+    max-width: 550px; 
+    height: auto; 
+    margin-right: 50px; 
+    padding-top: 50px;
+}
+.container_2 p {
+    /* text-align: justify;  */
+    margin-right: 20%;
+    margin-bottom: 110px;
+    color: gray;
+    margin-left: 60px;
+}
+.container_2 h3{
+    font-size: 30px; 
+    color: #333; 
+    margin-left: 60px;
+}
+
+
+/* list dans le container 2 */
+.container_2 ul {
+    list-style: none;
+    /* padding: 0; */
+    margin-left: 30px;
+    font-size: 18px;
+    
+}
+.container_2 li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.list-icon {
+    margin-right: 25px;
+    color: #35e625; /* Couleur de l'icône (bleu) */
+}
+
+@media  screen and (max-width: 900px) {
+
+    .nav-links {
+        display: none;
+    }
+ }

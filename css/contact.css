@@ -1,0 +1,140 @@
+.container_contact {
+    width: 100%;
+    height: 100%; 
+    /* background-color: aqua; */
+    position: relative;
+    display: block;
+    object-fit: cover;
+    z-index: 0;
+     
+}
+.boxx{
+    position: relative;
+}
+
+.image-contact {
+    position: relative;
+}
+
+.watermark {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    bottom: 0; 
+    /* z-index: 1;  */
+    
+}
+
+.main-images {
+    width: 100%;
+    height: 700px;
+    display: block;
+    object-fit: cover;
+    z-index: 0; 
+}
+
+.contact_box{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0; 
+    z-index: 1; 
+    margin-left: 16%;
+    border-radius: 1px;
+    border: 1px solid #969494c5;
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+    
+}
+.calls{
+    width: 50%;
+    height: 500px;
+    /* background-color: aqua;      */
+}
+.calls h1{
+    padding-left: 20px;
+}
+
+
+.form-containers {
+    
+    width: 100%;
+    padding: 0px;
+    font-size: 18px;
+    display: flex;
+    
+}
+.form-call {
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.message{
+    width:50%;
+    height: 500px;
+    /* background-color: rgb(47, 0, 255); */
+    padding-left: 40px;
+    
+}
+
+
+/* message */
+
+
+.form-group label {
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #c4bdbd;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 140px;
+    
+
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-row1{
+    padding-right: 160px;
+    padding-top: 109px;
+    padding-bottom: 50px;
+}
+
+
+
